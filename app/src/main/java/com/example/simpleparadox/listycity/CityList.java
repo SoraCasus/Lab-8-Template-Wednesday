@@ -79,5 +79,7 @@ public class CityList {
     }
 
     public void addCityList(List<City> cities) {
+        for(City c : cities)
+            add(c);
     }
 }
